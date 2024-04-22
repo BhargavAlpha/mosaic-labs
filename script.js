@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         tab.classList.add("active");
       });
     });
-    console.log("Setting up event listener for executeBtn...");
+    
   
     executeBtn.addEventListener("click", function(event) {
         event.preventDefault(); 
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 executedQueryDiv.innerHTML = `Lorem ipsum dolor sit amet consectetur. <i class="fa fa-check-circle tick-icon" style="color: rgb(100, 212, 100);"></i>`;
             }
         }, 10000);
-    },{ once: true });
+    });
       
     });
   // script.js
