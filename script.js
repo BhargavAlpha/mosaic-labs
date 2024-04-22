@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (tickIcon) {
                 tickIcon.className = "fa fa-check-circle tick-icon";
                 tickIcon.style.color = "rgb(100, 212, 100)";
-                executedQueryDiv.innerHTML = `Lorem ipsum dolor sit amet consectetur. <i class="fa fa-check-circle tick-icon" style="color: rgb(100, 212, 100);"></i>`;
+                executedQueryDiv.innerHTML = `Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur<i class="fa fa-check-circle tick-icon" style="color: rgb(100, 212, 100);"></i>`;
             }
         }, 10000);
     });
