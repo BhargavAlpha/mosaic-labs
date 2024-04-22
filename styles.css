@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;  
+    font-weight: 400;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #FFFFFF;
+    width: 100%; 
+}
+
+.first-div{
+    padding: 0.6rem 1rem;
+
+    height: 70px;
+    width: 90%;
+    background-color: #FFFFFF;
+}
+
+.select-query{
+    color: #A5A9AA;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.line{
+    height: 2px;
+    width: 235px;
+    background-color: #A5A9AA;
+}
+.input-div{
+  margin-top: 10px;
+}
+
+input{
+    border: none;
+    font-size: 15px;
+}
+input[type="text"]::placeholder {
+    color: black; 
+    opacity: 1; 
+}
+.btn{
+    background-color: #F5461B;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    width:90%;
+    cursor: pointer;
+
+}
+
+.third-div{
+    width: 300px;
+}
+.tabs {
+    display: flex;
+    border-bottom: 1px solid grey;
+    width: 300px;
+}
+
+.tab {
+    text-align: center;
+    padding: 10px;
+    width: 110px;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom-color 0.3s;
+    font-size: small;
+}
+
+.tab:hover {
+    color: #F5461B;
+    border-bottom: 2px solid #F5461B;
+}
+
+.tab.active {
+    border-bottom: 2px solid #F5461B;
+    color: #F5461B;
+}
+
+
+.content {
+    color: #474848;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;;
+    width: 300px;
+    padding: 5px;
+}
+
+.lorem-content{
+    position: relative;
+    color: #5c5b5b;
+    padding: 0.5rem;
+    width: 95%;
+    border: 1px solid #5c5b5b;
+    border-radius: 6px;
+}
+.lorem-content1{
+    position: relative;
+    color: #5c5b5b;
+    padding: 0.5rem;
+    width: 95%;
+    border: 1px solid #5c5b5b;
+    border-radius: 6px;
+}
+.lorem-content2{
+    position: relative;
+    color: #5c5b5b;
+    padding: 0.5rem;
+    width: 95%;
+    border: 1px solid #5c5b5b;
+    border-radius: 6px;
+}
+.lorem-content3{
+    position: relative;
+    color: #5c5b5b;
+    padding: 0.5rem;
+    width: 95%;
+    border: 1px solid #5c5b5b;
+    border-radius: 6px;
+}
+.tick-icon {
+    position: absolute; 
+    right: 10px; 
+    color: rgb(100, 212, 100); 
+    font-size: 24px !important;
+    bottom:-8px;
+}
+
+.tab:hover {
+    color: #F5461B;
+    border-bottom: 2px solid #F5461B;
+  }
+  
+ 
+  .tab.active {
+    color: #F5461B;
+    border-bottom: 2px solid #F5461B;
+  }
+  
+
+
+
+
